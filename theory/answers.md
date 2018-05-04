@@ -29,4 +29,4 @@ This does not need to verify the date is correct (e.g 33333-33-33 can match).
 
  * VT-100 Regex   
    
-    - Answer: ```/\e\[(\d{1,2};\d{1,2}f)|\e\[(\d{m)/g```
+    - Answer: ```/\e\[(\d{1,2};\d{1,2}f|\dm)/g```
